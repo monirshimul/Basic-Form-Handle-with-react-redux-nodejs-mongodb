@@ -1,4 +1,8 @@
+
+
+
 const counterReducer = (state = 0, action) => {
+    console.log("From Counter", action.type)
     switch (action.type) {
         case "INCREMENT": {
             return state + action.payload

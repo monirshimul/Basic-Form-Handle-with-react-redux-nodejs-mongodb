@@ -10,7 +10,7 @@ const allReducer = combineReducers({
     counter: counterReducer,
     auth: authReducer,
     another: AnotherReducer,
-    FormReducer
+    Form: FormReducer
 })
 
 
